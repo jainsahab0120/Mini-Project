@@ -1,0 +1,17 @@
+{
+  "name": "miniproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.6",
+    "react-calendar": "^5.1.0",
+    "react-chartjs-2": "^5.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
