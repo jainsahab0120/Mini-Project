@@ -29,7 +29,7 @@ app.use((err, req, res) => {
 const connectDB = () => {
   mongoose.set("strictQuery", true);
   mongoose
-    .connect("mongodb://localhost:27017/miniProject")
+    .connect("mongodb+srv://jiva:jiva@cluster0.sndoa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     .then(() => console.log("Connected to MongoDB"))
     .catch((err) => {
       console.error("Failed to connect to MongoDB");
